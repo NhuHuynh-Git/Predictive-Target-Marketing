@@ -70,10 +70,9 @@ A department store has launched a new clothing line and seeks to identify potent
 ## Repository Structure
 ```plaintext
 Predictive-Target-Marketing/
-├── results/             # Model outputs and demos
-├── reports/             # Project summary and findings
+├── results/             # Model outputs and demos (decision trees, models, diagrams, etc.)
+├── reports/             # Project summary and findings 
 ├── docs/                # Research and additional documentation
-├── images/              # Visuals (decision trees, charts, etc.)
 └── README.md            # Project overview and instructions
 
 ## Author
