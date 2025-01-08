@@ -6,7 +6,6 @@ This project demonstrates the use of predictive modeling techniques in SAS Enter
 ## Business Case
 A department store has launched a new clothing line and seeks to identify potential buyers using data from its customer loyalty program. The Customer_Purchase dataset contains 12 variables and over 15,000 observations, which are used to build and evaluate predictive models to address the business problem.
 
----
 ## Repository Structure
 - **SASpackages/**: SAS diagrams.
 - **results/**: Model outputs and demos (decision trees, regressions, model comparison, etc.).
@@ -15,7 +14,10 @@ A department store has launched a new clothing line and seeks to identify potent
 - **README.md**: Main project description and instructions.
 
 
----
+## Tools and Technologies
+- **SAS Enterprise Miner**: For predictive modeling and analysis.
+- **Microsoft Office**: For preparing reports and visualizations.
+
 ## Table of Contents
 1. [Setup and Data Preparation](#1-setup-and-data-preparation)
 2. [Decision Tree Models](#2-decision-tree-models)
@@ -23,48 +25,36 @@ A department store has launched a new clothing line and seeks to identify potent
 4. [Model Evaluation and Insights](#4-model-evaluation-and-insights)
 5. [Additional Research on Data Issues](#5-additional-research-on-data-issues)
 
----
 
 ## 1. Setup and Data Preparation
-### Key Steps:
 - **Project Creation**: Set up the SAS Enterprise Miner project and define the data source.
 - **Data Exploration**: Analyze data to understand patterns, missing values, and outliers.
 - **Data Partitioning**: Split the data into training, validation, and test sets.
 ![DataExploration](results/DataExploration.png)
----
 
 ## 2. Decision Tree Models
-### Highlights:
 - **Two Decision Trees**: Developed using different splitting criteria for comparison.
-  ![Decision](results/2-BranchDecisionTree.png)
-  ![Decision](results/2-BranchDecisionTree(2).png)
+  - [2-Branch Decision Tree (‘Decision’ as Assessment Measure)](results/2-BranchDecisionTree.png)
+  - [2-Branch Decision Tree (‘Average Square Error’ as Assessment Measure)](results/2-BranchDecisionTree(2).png)
 - **Three-Branch Decision Tree**: Improved classification with multi-branch splitting.
-  ![Decision](results/3-BranchDecisionTree.png)
+  - [3-Branch Decision Tree](results/3-BranchDecisionTree.png)
 - **Key Metrics**: Evaluated models based on misclassification rates and ROC curves.
 
----
-
 ## 3. Regression Models
-### Highlights:
 - **Missing Data Imputation**: Addressed missing values to ensure data quality.
 - **Regression Model**: Built and analyzed to predict customer purchase likelihood.
-  ![Regression](results/Regression.png)
+  - [Regression](results/Regression.png)
 - **Insights**: Assessed variable significance and overall model performance.
 
----
-
 ## 4. Model Evaluation and Insights
-### Key Takeaways:
 - **Model Comparison**: Decision tree vs. regression models in terms of accuracy and interpretability.
-  ![Comparison](results/ModelComparison.png)
+  - [Model Comparison Diagram](results/ModelComparison.png)
 - **Scoring**: Applied the best-performing model to new customer data for target marketing.
-  ![Score](results/ModelScoring.png)
+  - [Model Scoring Diagram](results/ModelScoring.png)
 - **Advantages**: Discussed strengths and weaknesses of each modeling approach.
 
----
 
 ## 5. Additional Research on Model Issues
-### Summary:
 - **Objective**: Identify and mitigate potential data issues that could impact the accuracy of predictive models.
 - **Key Findings**:
   - **Understanding the Problem**: Ensure alignment between the objective (predicting `TargetBuy`) and predictor variables, measurement units, and interpretation to maintain model relevance.  
@@ -72,13 +62,3 @@ A department store has launched a new clothing line and seeks to identify potent
   - **Sample Bias**: Address underrepresentation (e.g., gender imbalance or dominant regions like London) to improve generalization.  
   - **Future Not Being Like the Past**: Regularly update models to adapt to changes in customer behavior, trends, and external factors.  
 - **Details**: See the [Research Document](docs/Data_Issues_Research.pdf) for a comprehensive analysis.
-
----
-## Tools and Technologies
-- **SAS Enterprise Miner**: For predictive modeling and analysis.
-- **Microsoft Office**: For preparing reports and visualizations.
-
-## Author
-- **Nhu Huynh**  
-  [LinkedIn](https://www.linkedin.com/in/nhuhuynhh/) | [Email](mailto:nhuthituyet.huynh@gmail.com)
-
