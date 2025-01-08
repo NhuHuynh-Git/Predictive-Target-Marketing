@@ -7,7 +7,15 @@ This project demonstrates the use of predictive modeling techniques in SAS Enter
 A department store has launched a new clothing line and seeks to identify potential buyers using data from its customer loyalty program. The Customer_Purchase dataset contains 12 variables and over 15,000 observations, which are used to build and evaluate predictive models to address the business problem.
 
 ---
+## Repository Structure
+- **SASpackages/**: SAS diagrams.
+- **results/**: Model outputs and demos (decision trees, regressions, model comparison, etc.).
+- **reports/**: Project summary and findings.
+- **docs/**: Research and additional documentation on model issues.
+- **README.md**: Main project description and instructions.
 
+
+---
 ## Table of Contents
 1. [Setup and Data Preparation](#1-setup-and-data-preparation)
 2. [Decision Tree Models](#2-decision-tree-models)
@@ -49,7 +57,7 @@ A department store has launched a new clothing line and seeks to identify potent
 
 ---
 
-## 5. Additional Research on Data Issues
+## 5. Additional Research on Model Issues
 ### Summary:
 - **Objective**: Identify and mitigate potential data issues that could impact the accuracy of predictive models.
 - **Key Findings**:
@@ -65,17 +73,7 @@ A department store has launched a new clothing line and seeks to identify potent
 - **SAS Enterprise Miner**: For predictive modeling and analysis.
 - **Microsoft Office**: For preparing reports and visualizations.
 
----
-
-## Repository Structure
-```plaintext
-Predictive-Target-Marketing/
-├── SASpackages/         # SAS diagrams
-├── results/             # Model outputs and demos (decision trees, regressions, model comparison, etc.)
-├── reports/             # Project summary and findings 
-├── docs/                # Research and additional documentation
-└── README.md            # Project overview and instructions
-
 ## Author
 - **Nhu Huynh**  
   [LinkedIn](https://www.linkedin.com/in/nhuhuynhh/) | [Email](mailto:nhuthituyet.huynh@gmail.com)
+
