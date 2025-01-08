@@ -73,6 +73,9 @@ A department store has launched a new clothing line and seeks to identify potent
 - **SAS Enterprise Miner**: For predictive modeling and analysis.
 - **Microsoft Office**: For preparing reports and visualizations.
 
+## SAS Diagram
+![ModelScoring](results/ModelScoring.png)
+
 ## Author
 - **Nhu Huynh**  
   [LinkedIn](https://www.linkedin.com/in/nhuhuynhh/) | [Email](mailto:nhuthituyet.huynh@gmail.com)
