@@ -30,13 +30,16 @@ A department store has launched a new clothing line and seeks to identify potent
 - **Project Creation**: Set up the SAS Enterprise Miner project and define the data source.
 - **Data Exploration**: Analyze data to understand patterns, missing values, and outliers.
 - **Data Partitioning**: Split the data into training, validation, and test sets.
-
+![DataExploration](results/DataExploration.png)
 ---
 
 ## 2. Decision Tree Models
 ### Highlights:
 - **Two Decision Trees**: Developed using different splitting criteria for comparison.
+  ![Decision](results/2-BranchDecisionTree.png)
+  ![Decision](results/2-BranchDecisionTree(2).png)
 - **Three-Branch Decision Tree**: Improved classification with multi-branch splitting.
+  ![Decision](results/3-BranchDecisionTree.png)
 - **Key Metrics**: Evaluated models based on misclassification rates and ROC curves.
 
 ---
@@ -45,6 +48,7 @@ A department store has launched a new clothing line and seeks to identify potent
 ### Highlights:
 - **Missing Data Imputation**: Addressed missing values to ensure data quality.
 - **Regression Model**: Built and analyzed to predict customer purchase likelihood.
+  ![Regression](results/Regression.png)
 - **Insights**: Assessed variable significance and overall model performance.
 
 ---
@@ -52,7 +56,9 @@ A department store has launched a new clothing line and seeks to identify potent
 ## 4. Model Evaluation and Insights
 ### Key Takeaways:
 - **Model Comparison**: Decision tree vs. regression models in terms of accuracy and interpretability.
+  ![Comparison](results/ModelComparison.png)
 - **Scoring**: Applied the best-performing model to new customer data for target marketing.
+  ![Score](results/ModelScoring.png)
 - **Advantages**: Discussed strengths and weaknesses of each modeling approach.
 
 ---
@@ -68,13 +74,9 @@ A department store has launched a new clothing line and seeks to identify potent
 - **Details**: See the [Research Document](docs/Data_Issues_Research.pdf) for a comprehensive analysis.
 
 ---
-
 ## Tools and Technologies
 - **SAS Enterprise Miner**: For predictive modeling and analysis.
 - **Microsoft Office**: For preparing reports and visualizations.
-
-## SAS Diagram
-![ModelScoring](results/ModelScoring.png)
 
 ## Author
 - **Nhu Huynh**  
